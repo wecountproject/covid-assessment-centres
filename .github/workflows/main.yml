@@ -2,7 +2,7 @@ name: Push into the master branch triggers the WeCount website to deploy
 
 on:
   push:
-    branches: [trigger-map-deploy]
+    branches: [master]
 
 jobs:
   deploy:
