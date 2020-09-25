@@ -1,0 +1,11 @@
+name: Push into the master branch triggers the WeCount website to deploy
+
+on: [push]
+  branches: [trigger-map-deploy]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Deploy the WeCount website
+      run: curl -X POST -d {} ${{ github.BUILD_HOOK }}
