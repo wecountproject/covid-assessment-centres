@@ -4,17 +4,11 @@ This repository contains CSV files of Ontario COVID-19 assessment centre locatio
 
 ## Repository Structure
 
-* `/ODS_datasets` directory
+* `/ODS_datasets` directory: contains all versions of COVID-19 assessment centre locations fetched from [Ontario Open Data Service](https://data.ontario.ca/dataset/covid-19-assessment-centre-locations).
 
-Contains versions of COVID-19 assessment centre locations from [Ontario Open Data Service](https://data.ontario.ca/dataset/covid-19-assessment-centre-locations).
+* `/merged_datasets` directory: contains all versions of merged datasets.
 
-* `/merged_datasets` directory
-
-Contains versions of merged datasets.
-
-* `latest.csv`
-
-A copy of the latest merged dataset from `/merged_datasets` directory. It provides a common endpoint for accessing the latest data set.
+* `latest.csv`: a copy of the latest merged dataset from `/merged_datasets` directory. It provides a common endpoint for accessing the latest data set.
 
 ## License
 
