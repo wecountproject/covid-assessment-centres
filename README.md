@@ -4,9 +4,9 @@ This repository contains CSV files of Ontario COVID-19 assessment centre locatio
 
 ## Repository Structure
 
-Datasets are organized in directory by ownership and provenance.
+Datasets are organized in directory by ownership and provenance. All datasets have their publication dates attached in filenames.
 
-* `/ODS` directory: contains all versions of COVID-19 assessment centre locations fetched from [Ontario Open Data Service](https://data.ontario.ca/dataset/covid-19-assessment-centre-locations).
+* `/ODC` directory: contains all versions of COVID-19 assessment centre locations fetched from [Ontario Data Catalogue](https://data.ontario.ca/dataset/covid-19-assessment-centre-locations).
 
 * `/WeCount` directory: contains all datasets used by [the WeCount project](https://wecount.inclusivedesign.ca/).
 
