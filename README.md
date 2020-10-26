@@ -4,7 +4,8 @@ This repository contains CSV files of Ontario COVID-19 assessment centre locatio
 
 ## Repository Structure
 
-Datasets are organized in directory by ownership and provenance. All datasets have their publication dates attached in filenames.
+Datasets are organized in directory by ownership and provenance. All datasets have their publication dates attached in
+filenames.
 
 * `/ODC` directory: contains all versions of COVID-19 assessment centre locations fetched from [Ontario Data Catalogue](https://data.ontario.ca/dataset/covid-19-assessment-centre-locations).
 
@@ -14,4 +15,6 @@ Datasets are organized in directory by ownership and provenance. All datasets ha
 
 ## License
 
-This data is distributed under the Creative Commons Attribution 4.0 International license. Portions of the data set were provided by the [Ontario Digital Service](https://www.ontario.ca/page/ontario-digital-service), and contains information licensed under the [Open Government Licence - Ontario](https://www.ontario.ca/page/open-government-licence-ontario).
+This data is distributed under the Creative Commons Attribution 4.0 International license. Portions of the data set
+were provided by the [Ontario Digital Service](https://www.ontario.ca/page/ontario-digital-service), and contains
+information licensed under the [Open Government Licence - Ontario](https://www.ontario.ca/page/open-government-licence-ontario).
