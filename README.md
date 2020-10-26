@@ -13,6 +13,10 @@ filenames.
 
 * `latest.json` in each directory: a JSON schema that indicates the latest dataset used by that ownership.
 
+## Linting
+
+Run `npm run lint` or `grunt lint` to lint.
+
 ## License
 
 This data is distributed under the Creative Commons Attribution 4.0 International license. Portions of the data set
