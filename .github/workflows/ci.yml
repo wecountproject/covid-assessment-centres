@@ -3,13 +3,13 @@ name: CI
 on: [push, pull_request]
 
 jobs:
-  ci:
-    runs-on: ubuntu-latest
-    steps:
-    - uses: actions/checkout@v2
+    ci:
+        runs-on: ubuntu-latest
+        steps:
+        - uses: actions/checkout@v2
 
-    - name: Install Node.js dependencies
-      run: npm ci
+        - name: Install Node.js dependencies
+            run: npm ci
 
-    - name: Linter
-      run: npm run lint
+        - name: Linter
+            run: npm run lint
